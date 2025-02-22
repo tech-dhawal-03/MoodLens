@@ -1,31 +1,33 @@
 "use client";
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
+import ColourfulText from "@/components/ui/colourful-text";
 
 export function Typewriter() {
   const words = [
     {
-      text: "Build",
+      text: "Transforming",
       className : "text-4xl text-white md:text-6xl"
     },
     {
-      text: "awesome",
+      text: "texts",
        className : "text-4xl text-white md:text-6xl"
     },
     {
-      text: "apps",
+      text: "into",
        className : "text-4xl text-white md:text-6xl"
     },
     {
-      text: "with",
+      text: "actionable",
        className : "text-4xl text-white md:text-6xl"
     },
     {
-      text: "Aceternity.",
-      className : "text-4xl text-white md:text-6xl"
+      text: "Insights",
+      className : "text-4xl text-white md:text-6xl",
+     
     },
   ];
   return (
-    <div className="flex items-center justify-center h-[15rem] md:h-[25rem] ">
+    <div className="flex items-center justify-center h-[10rem] md:h-[15rem] ">
 
       <TypewriterEffect words={words} />
       
